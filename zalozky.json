@@ -1,0 +1,56 @@
+[
+  {
+    "title": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/",
+    "icon": "https://www.google.com/s2/favicons?domain=developer.mozilla.org&sz=64",
+    "background": "#ecfeff",
+    "borderColor": "#06b6d4",
+    "description": "Reference for HTML, CSS and JavaScript.",
+    "tags": ["docs", "web", "reference"]
+  },
+  {
+    "title": "Vite",
+    "url": "https://vite.dev/",
+    "icon": "⚡",
+    "background": "#fef3c7",
+    "borderColor": "#f59e0b",
+    "description": "Fast frontend tooling and build setup.",
+    "tags": ["tooling", "dev", "build"]
+  },
+  {
+    "title": "Lit",
+    "url": "https://lit.dev/",
+    "icon": "🧩",
+    "background": "#ede9fe",
+    "borderColor": "#8b5cf6",
+    "description": "Simple and fast web components library.",
+    "tags": ["web", "components", "dev"]
+  },
+  {
+    "title": "GitHub",
+    "url": "https://github.com/",
+    "icon": "🐙",
+    "background": "#f3f4f6",
+    "borderColor": "#111827",
+    "description": "Source code hosting and collaboration platform.",
+    "tags": ["code", "social", "dev"]
+  },
+  {
+    "title": "Stack Overflow",
+    "url": "https://stackoverflow.com/",
+    "icon": "💬",
+    "background": "#fff7ed",
+    "borderColor": "#f97316",
+    "description": "Community-driven Q&A for developers.",
+    "tags": ["support", "community", "dev"]
+  },
+  {
+    "title": "Figma",
+    "url": "https://www.figma.com/",
+    "icon": "🎨",
+    "background": "#fdf2f8",
+    "borderColor": "#ec4899",
+    "description": "Design and prototype interface ideas.",
+    "tags": ["design", "ui", "product"]
+  }
+]

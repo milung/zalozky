@@ -1,0 +1,40 @@
+{
+  "name": "zalozky",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "firebase:deploy": "firebase deploy --only hosting,firestore:rules",
+    "firebase:serve": "firebase emulators:start --only hosting,firestore"
+  },
+  "dependencies": {
+    "@codemirror/lang-html": "^6.4.12",
+    "codemirror": "^6.0.2",
+    "firebase": "^13.0.0",
+    "i18next": "^26.5.4",
+    "lit": "^3.3.3",
+    "lit-i18n": "^4.1.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "latest",
+    "@storybook/addon-a11y": "^10.6.2",
+    "@storybook/addon-docs": "^10.6.2",
+    "@storybook/addon-vitest": "^10.6.2",
+    "@storybook/web-components-vite": "^10.6.2",
+    "@types/node": "^26.6.5",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest",
+    "firebase-tools": "^15.34.0",
+    "playwright": "latest",
+    "storybook": "^10.6.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "latest"
+  }
+}
