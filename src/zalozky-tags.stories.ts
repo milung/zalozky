@@ -41,10 +41,11 @@ export const Filtered = {
     selectedTags: []
   },
   play: async ({ canvasElement }) => {
-    const host = canvasElement.querySelector('zalozky-tags')
-    const visible = host?.shadowRoot?.querySelectorAll('.tag-pill') ?? []
+    const host = canvasElement.querySelector('zalozky-tags') as HTMLElement | null
+    const shadowRoot = host?.shadowRoot as ShadowRoot | null
+    const visible = (shadowRoot?.querySelectorAll('.tag-pill') ?? []) as Element[]
 
-    expect(Array.from(visible).map((button) => button.textContent?.trim())).toEqual(expect.arrayContaining([':design', ':dev']))
+    expect(Array.from(visible).map((button) => (button as HTMLElement).textContent?.trim())).toEqual(expect.arrayContaining([':design', ':dev']))
   }
 }
 

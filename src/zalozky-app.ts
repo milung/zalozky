@@ -1475,9 +1475,9 @@ export class ZalozkyApp extends LitElement {
 
       .bookmark-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18rem, 24rem));
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
         grid-auto-flow: dense;
-        gap: 16px;
+        gap: 8px;
       }
 
       .bookmark-card {
